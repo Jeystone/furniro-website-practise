@@ -1,14 +1,14 @@
 @media (min-width: 768px) {
-    .contaainer {
+    body {
         max-width: 720px;
         margin: 0 auto;
     }
 }
 @media (max-width: 768px) {
-  .range-grid {
+  .image-list {
     grid-template-columns: 1fr; /* одна картинка на всю ширину */
   }
-  .range-item img {
+  .collage-image img {
     height: 300px; /* фиксируем высоту, чтобы не растягивалась слишком сильно */
   }
 }
